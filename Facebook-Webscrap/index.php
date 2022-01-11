@@ -1,7 +1,7 @@
-<!--- <div id="fb-root"></div>
+<div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0" nonce="hTxJa6NP"></script>
 
-<div class="fb-page" data-href="https://www.facebook.com/ViveTvOficial" data-tabs="timeline" data-width="400" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ViveTvOficial" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ViveTvOficial">Vive Televisión</a></blockquote></div> -->
+<div class="fb-page" data-href="https://www.facebook.com/ViveTvOficial" data-tabs="timeline" data-width="400" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ViveTvOficial" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ViveTvOficial">Vive Televisión</a></blockquote></div>
 
 <?php
 $json_object = @file_get_contents('https://graph.facebook.com/'.$page_id.'/posts?limit=4&access_token=' . $access_token);
